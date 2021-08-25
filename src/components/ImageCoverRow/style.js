@@ -5,8 +5,8 @@ export const Container = styled.div`
   position: relative;
   background-color: #343a40;
   background: url(${(props) => props.image || ocean}) no-repeat center center;
-  height: ${(props) => props.height || "300px"};
-  width: ${(props) => props.width || "100vw"};
+  height: ${(props) => props.height || "100%"};
+  width: ${(props) => props.width || "98.77vw"};
   background-size: cover;
   text-align: center;
   vertical-align: middle;

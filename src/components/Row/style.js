@@ -7,5 +7,5 @@ export const Container = styled.div`
   align-items: center; /* center items vertically, in this case */
   background-color: white;
   height: ${(props) => props.height || "300px"};
-  width: ${(props) => props.width || "100vw"};
+  width: ${(props) => props.width || "98.77vw"};
 `;
