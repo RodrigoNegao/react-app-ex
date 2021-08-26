@@ -3,7 +3,7 @@ import Card from '../../components/Card';
 import Footer from '../../components/Footer';
 import ImageCoverRow from '../../components/ImageCoverRow';
 import Row from '../../components/Row';
-import { Container } from './style';
+import Container from './style';
 
 export default function Home() {
   return (
