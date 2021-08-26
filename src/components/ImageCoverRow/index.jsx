@@ -1,4 +1,8 @@
-import { Container } from "./style";
+import { Container } from './style';
+
+propTypes: {
+  title: PropTypes.string;
+}
 
 export default function ImageCoverRow(props) {
   const { title, height, width, image } = props;

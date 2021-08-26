@@ -1,6 +1,6 @@
-import Routes from "./routes";
 import { ThemeProvider } from "styled-components";
 import { Reset } from "styled-reset";
+import Routes from "./routes";
 import theme from "./theme";
 
 function App() {

@@ -1,4 +1,4 @@
-import { Container } from "./style";
+import Container from './style';
 
 export default function Footer(props) {
   const { height, width, children } = props;

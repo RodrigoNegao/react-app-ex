@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: white;
+  background-color: ${(props) => props.bgcolor || ""};
   display: flex;
   flex-direction: column; /* make main axis horizontal (default setting) */
   justify-content: center; /* center items horizontally, in this case */
